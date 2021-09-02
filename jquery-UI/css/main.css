@@ -1,0 +1,127 @@
+/* Exmaple 1: draggable */
+.draggable {
+    width: 100px;
+    height: 100px;
+    background: red;
+
+}
+
+.parent {
+    width: 300px;
+    height: 300px;
+    background: blue;
+}
+
+.handle {
+    display: inline-block;
+    background: black;
+}
+
+/* Exmaple 2: droppable */
+.draggable--2 {
+    width: 100px;
+    height: 100px;
+    background: blue;
+
+}
+
+.droppable {
+    width: 300px;
+    height: 300px;
+    background: red;
+}
+.accepted {
+background: green;
+}
+
+/* Example 3: Resizable */
+
+.resizable {
+    width: 100px;
+    height: 100px;
+    background: green;
+}
+
+.block {
+    width: 300px;
+    height: 300px;
+    background: red;
+}
+
+/* Example 4: Selectable */
+
+#selectable{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.ui-selected {
+    background: green;
+}
+
+/* Example 5: Sortable */
+ #sortable{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+ }
+
+
+ /* Example 10: addClass and removeClass */
+ .button{
+     color:red;
+     background: blue;
+     font-size: 20px;
+     border: 1px solid black;
+     display: inline-block;
+     padding: 20px;
+ }
+
+ .otherClass{
+    color:green;
+    background: yellow;
+    font-size: 40px;
+    border: 4px solid black;
+    display: inline-block;
+    padding: 30px;
+ }
+
+ /* Example 11: Effect and Toggle */
+ .effect-btn{
+    color:green;
+    background: yellow;
+    font-size: 20px;
+    border: 1px solid black;
+    display: inline-block;
+    padding: 20px;
+}
+
+.effect-otherClass{
+   color:red;
+   background: blue;
+   font-size: 40px;
+   border: 4px solid black;
+   display: inline-block;
+   padding: 30px;
+}
+
+.toggle-switch-btn{
+    color:red;
+    background: blue;
+  
+    font-size: 20px;
+    border: 1px solid black;
+    display: inline-block;
+    padding: 20px;
+}
+
+.toggle-switch-otherClass{  
+   color:green;
+   background: yellow;
+   font-size: 40px;
+   border: 4px solid black;
+   display: inline-block;
+   padding: 30px;
+}
+

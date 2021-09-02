@@ -1,0 +1,7 @@
+# dependencies folder
+
+/node_modules
+
+# misc files
+package-lock.json*
+
