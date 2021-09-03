@@ -1,7 +1,8 @@
 $(document).ready(function () {
 
-    // Topic 1-----------------
+    /* Always keep main.js after jquery.js */
 
+    // Topic 1-----------------
 
     /* Vanilla JS
      var parent = document.querySelector('.parent');
@@ -137,7 +138,7 @@ $(document).ready(function () {
     var cars = ["Ford", "Chevy", "Honda"];
 
     $('.mainElement').data("cars", cars);
-   console.log( $('.mainElement').data());
+    console.log($('.mainElement').data());
 
 
 
